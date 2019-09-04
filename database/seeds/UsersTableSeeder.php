@@ -17,5 +17,11 @@ class UsersTableSeeder extends Seeder
         	'email' => 'sistemas@ammmec.com',
         	'password' => bcrypt('Ammmec.2018-')
         ]);
+
+        User::create([
+            'name' => 'Haydde Hernandez',
+            'email' => 'h_hernandez@ammmec.com',
+            'password' => bcrypt('Ammmec.2018-')
+        ]);
     }
 }
