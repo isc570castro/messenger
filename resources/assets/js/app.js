@@ -14,6 +14,8 @@ Vue.component('active-conversation-component',
 	require('./components/ActiveConversationComponent.vue'));
 Vue.component('message-conversation-component', 
 	require('./components/MessageConversationComponent.vue'));
+Vue.component('messeger-component', 
+    require('./components/MessengerComponent.vue'));
 
 
 const app = new Vue({
